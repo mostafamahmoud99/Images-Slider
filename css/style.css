@@ -1,0 +1,64 @@
+.img-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background-image: url("../img/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.inner-container i {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#colseBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.col-md-4 {
+  position: relative;
+}
+
+.content {
+  background-color: #fff;
+  padding: 5px;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+}
+
+.col-md-4:hover .content{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+
+
